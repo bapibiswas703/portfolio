@@ -20,6 +20,15 @@ npm run build
 
 The build emits a fully static site — no Node server needed at runtime.
 
+## Preview the production build locally
+
+```bash
+npm run build && npm run start
+# open http://localhost:3000
+```
+
+This serves the static `out/` directory via [`serve`](https://github.com/vercel/serve). Note: `next start` does **not** work with `output: "export"` — it expects a Node server.
+
 ## Deploy
 
 ### Vercel (recommended — zero config)
