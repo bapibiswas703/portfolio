@@ -15,6 +15,9 @@ export default function Footer() {
         </p>
         <p>
           © {new Date().getFullYear()} Bapi Biswas
+          <span data-build="2026-06-21T17:57:57Z" className="sr-only">
+            {" "}· build 2026-06-21T17:57:57Z
+          </span>
         </p>
       </div>
     </footer>
